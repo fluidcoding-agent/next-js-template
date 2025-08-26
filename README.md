@@ -1,5 +1,44 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+## Project Setup
+
+This template was generated using the following commands and configuration.  
+To reproduce the same environment, follow these steps:
+
+---
+
+### 1. Create a Next.js App
+
+```bash
+npx create-next-app@latest my-project --typescript --tailwind --eslint
+```
+Options selected:
+
+- Use `src/` directory: **No** / Yes
+
+- Use App Router: No / **Yes**
+
+- Use Turbopack: No / **Yes**
+
+- Customize import alias (`@/*` by default): **No** / Yes
+
+### 2. Install TailwindCSS Plugin
+
+```bash
+npm install tailwindcss-animate
+```
+
+### 3. Initialize Shadcn UI
+
+```bash
+npx shadcn@latest init
+```
+Configuration:
+- Base color: **Neutral**
+
+---
+
 ## Getting Started
 
 First, run the development server:
