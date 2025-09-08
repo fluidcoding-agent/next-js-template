@@ -37,6 +37,26 @@ npx shadcn@latest init
 Configuration:
 - Base color: **Neutral**
 
+### 4. Install Component
+
+```bash
+npx shadcn@latest add dialog button sonner card label
+```
+
+### 5. Configure Font Settings
+
+Add Korean font support to `globals.css` in the `@theme` section:
+```css
+@theme inline {
+    --font-sans: var(--font-geist-sans), SamsungOneKoreanNoF, Samsung Sharp Sans, NotoSans, sans-serif;
+    // Keep existing configurations
+}
+```
+
+### 6. Modify Dialog Component
+
+Remove `sm:max-w-lg` class from `components/ui/dialog.tsx` for better responsive behavior.
+
 ---
 
 ## Getting Started
